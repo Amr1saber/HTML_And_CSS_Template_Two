@@ -402,7 +402,9 @@ header nav .form i {
     margin-top: 60px;
 }
 .portfolio .imgs-container .box {
-    flex-basis: 25%;
+    
+    overflow: hidden;
+    position: relative;
 }
 .portfolio .imgs-container .box:hover .caption {
     bottom: 0;
@@ -416,8 +418,7 @@ header nav .form i {
 }
 @media (min-width: 768px){
     .portfolio .imgs-container .box {
-        overflow: hidden;
-        position: relative;
+       flex-basis: 50%;
     }
 }
 @media (min-width: 1199px){
